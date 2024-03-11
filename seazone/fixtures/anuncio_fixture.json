@@ -1,0 +1,35 @@
+[
+{
+  "model": "app.anuncio",
+  "pk": 1,
+  "fields": {
+    "id_imovel": 1,
+    "plataforma_publicada": "AirBnb",
+    "taxa_plataforma": "20.00",
+    "data_horario_criacao": "2024-03-11T00:04:51.332Z",
+    "data_horario_atualizacao": null
+  }
+},
+{
+  "model": "app.anuncio",
+  "pk": 2,
+  "fields": {
+    "id_imovel": 2,
+    "plataforma_publicada": "Booking.com",
+    "taxa_plataforma": "12.00",
+    "data_horario_criacao": "2024-03-11T00:05:11.735Z",
+    "data_horario_atualizacao": null
+  }
+},
+{
+  "model": "app.anuncio",
+  "pk": 3,
+  "fields": {
+    "id_imovel": 3,
+    "plataforma_publicada": "Trivago",
+    "taxa_plataforma": "15.00",
+    "data_horario_criacao": "2024-03-11T00:05:29.366Z",
+    "data_horario_atualizacao": null
+  }
+}
+]

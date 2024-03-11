@@ -1,0 +1,67 @@
+[
+{
+  "model": "app.imovel",
+  "pk": 1,
+  "fields": {
+    "limite_hospedes": 2,
+    "quantidade_banheiros": 3,
+    "aceita_animal_estimacao": true,
+    "valor_limpeza": "20.00",
+    "data_ativacao": "2024-03-10",
+    "data_horario_criacao": "2024-03-11T00:01:40.035Z",
+    "data_horario_atualizacao": "2024-03-11T00:01:40.036Z"
+  }
+},
+{
+  "model": "app.imovel",
+  "pk": 2,
+  "fields": {
+    "limite_hospedes": 3,
+    "quantidade_banheiros": 4,
+    "aceita_animal_estimacao": true,
+    "valor_limpeza": "48.00",
+    "data_ativacao": "2024-04-04",
+    "data_horario_criacao": "2024-03-11T00:01:52.714Z",
+    "data_horario_atualizacao": "2024-03-11T00:01:52.714Z"
+  }
+},
+{
+  "model": "app.imovel",
+  "pk": 3,
+  "fields": {
+    "limite_hospedes": 3,
+    "quantidade_banheiros": 3,
+    "aceita_animal_estimacao": true,
+    "valor_limpeza": "48.00",
+    "data_ativacao": "2024-02-25",
+    "data_horario_criacao": "2024-03-11T00:02:04.578Z",
+    "data_horario_atualizacao": "2024-03-11T00:02:04.578Z"
+  }
+},
+{
+  "model": "app.imovel",
+  "pk": 4,
+  "fields": {
+    "limite_hospedes": 4,
+    "quantidade_banheiros": 3,
+    "aceita_animal_estimacao": true,
+    "valor_limpeza": "122.00",
+    "data_ativacao": "2024-02-27",
+    "data_horario_criacao": "2024-03-11T00:03:35.423Z",
+    "data_horario_atualizacao": "2024-03-11T00:03:35.423Z"
+  }
+},
+{
+  "model": "app.imovel",
+  "pk": 5,
+  "fields": {
+    "limite_hospedes": 1,
+    "quantidade_banheiros": 1,
+    "aceita_animal_estimacao": false,
+    "valor_limpeza": "10.00",
+    "data_ativacao": "2024-02-29",
+    "data_horario_criacao": "2024-03-11T00:03:50.884Z",
+    "data_horario_atualizacao": "2024-03-11T00:03:50.884Z"
+  }
+}
+]
