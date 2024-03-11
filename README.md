@@ -52,6 +52,8 @@ Django Rest Framework
 
 Uma série de exemplos passo-a-passo que informam o que você deve executar para ter um ambiente de desenvolvimento em execução.
 
+⚠️ **Os passos a seguir devem ser seguidos na sequência em que estão para garantir que o projeto seja executado da forma correta.** ⚠️
+
 Crie uma pasta com o nome da sua escolha e execute o comando:
 
 ```
@@ -86,6 +88,12 @@ Realize as migrações do banco de dados:
 
 ```
 python manage.py migrate
+```
+
+Caso o comando acima não retorne sucesso, execute o comando abaixo:
+
+```
+python manage.py makemigrations
 ```
 
 Inicie o servidor de desenvolvimento:
