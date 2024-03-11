@@ -17,6 +17,16 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 
+from app.views.views_anuncio import AnuncioListView, AnuncioView
+from app.views.views_imovel import ImovelListView, ImovelView
+from app.views.views_reserva import ReservaListView, ReservaView
+
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('anuncio/', AnuncioListView.as_view(), name='anuncio_list'),
+    path('anuncio/<id_anuncio>', AnuncioView.as_view(), name='anuncio'),
+    path('imovel/', ImovelListView.as_view(), name='imovel_list'),
+    path('imovel/<int:id_imovel>', ImovelView.as_view(), name='imovel'),
+    path('reserva/', ReservaListView.as_view(), name='reserva_list'),
+    path('<int:id_reserva>', ReservaView.as_view(), name='reserva'),
 ]
